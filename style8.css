@@ -1,7 +1,7 @@
-body {
- /* background-color: red;*/
-height:100% ;
-}
+/* body {
+ background-color: red;
+height:100% ;}*/
+
 p {
   color: #404040;
 }
@@ -20,11 +20,18 @@ aside
   height: auto;
   padding: 15%;
 }
+ /*mise en forme image + centrage*/
 img {
   width: 100%;
   margin: auto;
   border-radius: 300%;
   
+}
+img.center
+{
+  display: block;
+  margin-left: auto;
+  margin-right: auto 
 }
 
 h1 {
@@ -49,10 +56,10 @@ p {
   text-align: justify;
     padding-left: 10%;
 }
-.article-3
+/*.article-3
 {
 height: 45%;
-}
+}*/
 
 .article-3 p 
 {
@@ -79,20 +86,15 @@ height: 45%;
   height: 2.5em;
   width: 2.5em;
 
-  /*
-  font-size: 200%;
-  padding: 4%;
-  margin: 2%;
-  color: #404040;*/
-  
+ 
 }
 
 
 /*style container2*/
-main {
- /*  background-color: aqua;
- height: 100vh;*/
-}
+/*{main 
+   background-color: aqua;
+ height: 100vh;}*/
+
 .container2
 {
   padding: 6%;
@@ -128,7 +130,7 @@ span.underline
     /*dimensionement du titre*/
 [class=titre]
 {
-  background-color: azure;
+  
  margin-bottom: 10%;
 }
 /*Mise en forme H3*/
