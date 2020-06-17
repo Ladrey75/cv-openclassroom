@@ -1,0 +1,199 @@
+body {
+ /* background-color: red;*/
+height:100% ;
+}
+p {
+  color: #404040;
+}
+aside
+{
+  display:inherit ;
+}
+/*style container1*/
+
+.container1 {
+  background-color: #feca07;
+
+ /* height: 100vh;*/
+}
+.article-1 {
+  height: auto;
+  padding: 15%;
+}
+img {
+  width: 100%;
+  margin: auto;
+  border-radius: 300%;
+  
+}
+
+h1 {
+  text-transform: uppercase;
+  font-size: 2em;
+  text-align: center;
+  background-color: #404040;
+
+  border: 0.1em solid #404040;
+  color: #feca07;
+}
+/*.portrait {
+  padding: 25%;
+}*/
+p {
+  margin: 3%;
+  padding: 3%;
+}
+.article-2 
+p {
+  justify-content: center;
+  text-align: justify;
+    padding-left: 10%;
+}
+.article-3
+{
+height: 45%;
+}
+
+.article-3 p 
+{
+  justify-content: center;
+  text-align: justify;
+  padding: 10%;
+ 
+}
+.loisir-icone {
+  text-align: center;
+  padding: 3%;
+}
+.loisir-icone .fas
+{
+  color: #404040;
+  padding: 3%;
+  margin-left: 0.3em;
+  margin-right: 0.3em;
+  font-size: x-large;
+}
+.loisir-icone i {
+  border: solid #404040 2px;
+  border-radius: 300%;
+  height: 2.5em;
+  width: 2.5em;
+
+  /*
+  font-size: 200%;
+  padding: 4%;
+  margin: 2%;
+  color: #404040;*/
+  
+}
+
+
+/*style container2*/
+main {
+ /*  background-color: aqua;
+ height: 100vh;*/
+}
+.container2
+{
+  padding: 6%;
+}
+.container2 p
+{
+  margin:0;
+  padding:0;
+}
+/*style Titre*/
+  /*mise en forme titre h2 et P*/
+h2
+{
+text-transform: uppercase;
+font-size: 3em;
+color:#404040;
+}
+h2 + p
+{
+  font-size: 2em;
+}
+    /*1er mot 1erligne : jaune*/
+span.yellow
+{ 
+  color: #feca07;
+ 
+}
+    /*2 premiéres sylabes du 1er mot - 2ém ligne : sousligné en jaune*/
+span.underline 
+{
+  text-decoration: underline #feca07;
+}
+    /*dimensionement du titre*/
+[class=titre]
+{
+  background-color: azure;
+ margin-bottom: 10%;
+}
+/*Mise en forme H3*/
+h3{ 
+  text-transform: uppercase;
+  color:black;
+  font-weight: 600;
+padding-bottom: 0.3em;
+  margin-bottom: 1.2em;
+  border-bottom: solid #feca07 3px;
+ 
+}
+/*Mise en forme fas et far */
+.fas ,.far
+{
+color: #feca07;
+margin-right:15px;
+
+}
+/*alignement div date col.3*/
+.date p+p
+{
+    padding-left: 32px;
+}
+/*dimensionement des row */
+.row
+{
+
+ margin-bottom: 5%;
+
+}
+/*Mise en forme H4*/
+h4{ 
+    text-transform: uppercase;
+    color: #404040;
+    font-size:larger ;
+  padding-bottom: 0.3em;
+}
+    
+/*Mise en forme H5*/
+h5{ 
+ text-transform: capitalize;
+color: #404040;
+  padding-bottom: 0.3em;
+  font-size: 1rem;
+}
+/*Mise en forme H6*/
+h6{ 
+    text-transform: capitalize;
+   color: #404040;
+ font-weight: bold;
+     
+   }
+   h6 +p
+   { 
+    text-transform: capitalize;
+   color: #404040;
+   font-weight: bold;
+        }
+    
+
+
+<i class="fas fa-circle"aria-hidden="true"></i>
+<i class="fas fa-pencil-alt"aria-hidden="true"></i>
+<i class="fas fa-graduation-cap"aria-hidden="true"></i>
+
+<i class="far fa-dot-circle fa-1x" aria-hidden="true">
+<i class="fas fa-briefcase"aria-hidden="true"></i>
