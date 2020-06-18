@@ -1,0 +1,92 @@
+body{
+	background : gray;
+}
+/* ######## DEBUT ASIDE ########*/
+aside{
+	background-color : purple;
+
+}
+
+aside .container{
+	background-color:yellow;
+	padding:0px;
+	margin:0px;
+}
+
+.article1{
+	padding:5%;
+	height:25%;
+	display: flex;
+    align-items: center;
+    justify-content: center;
+	
+}
+.article1 img{
+	border-radius: 300%;
+	width:65%;
+	height:auto;
+}
+.article2{
+	padding:1%;
+}
+.article2 h1{
+	font-size:100%;
+	Color:yellow;
+	background-color:black;
+	text-align: center;
+}
+.article2 p{
+	font-size:1em;
+	color:black;
+	text-align: left;
+}
+
+.article3{
+	padding:1%;
+}
+.article3 h1{
+	font-size:100%;
+	Color:yellow;
+	background-color:black;
+	text-align: center;
+}
+.article3 p{
+	font-size:100%;
+	color:black;
+	text-align: justify;
+}
+
+.article4{
+	padding:1%;
+	display:fixed;
+	position:bottom;
+}
+.article4 h1{
+	height: auto;
+	font-size:100%;
+	Color:yellow;
+	background-color:black;
+	text-align: center;
+}
+.article4 .icone{
+	display: flex;
+	align-items: flex-start;
+	justify-content: center;
+}
+.article4 i{
+	padding:5px;
+	height:2.5em;
+	width:2.5em;
+	margin:1%;
+	display: flex;
+    align-items: center;
+    justify-content: center;
+	border-radius: 300%;
+	border:1px solid black;
+}
+
+
+
+
+
+/* ######## FIN ASIDE ########*/
