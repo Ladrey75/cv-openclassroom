@@ -79,7 +79,7 @@ height: 45%;
   padding: 3%;
   margin-left: 0.3em;
   margin-right: 0.3em;
-  font-size:auto;
+  font-size:x-large;
 }
 
 .loisir-icone i {
@@ -137,6 +137,11 @@ span.underline
   
  margin-bottom: 10%;
 }
+/*Mise en des sections*/
+section
+{
+padding:7% 0 7% 0 ;
+}
 /*Mise en forme H3*/
 h3{ 
   text-transform: uppercase;
@@ -159,13 +164,13 @@ margin-right:15px;
 {
     padding-left: 32px;
 }
-/*dimensionement des row */
+/*dimensionement des row 
 .row
 {
 
  margin-bottom: 5%;
 
-}
+}*/
 /*Mise en forme H4*/
 h4{ 
     text-transform: uppercase;
